@@ -1,0 +1,1 @@
+<a href="cl.php?u=<?php print $_GET[u]?>&p=<?php print $_GET[p]?>">cl</a>

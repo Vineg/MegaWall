@@ -1,0 +1,1 @@
+	alert("prs::" + prskey + "::add::nav::11::http://localhost/ads/log.php");

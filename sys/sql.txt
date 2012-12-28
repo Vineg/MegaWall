@@ -1,0 +1,480 @@
+﻿-- phpMyAdmin SQL Dump
+-- version 3.4.3.2
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost
+-- Время создания: Дек 15 2011 г., 16:59
+-- Версия сервера: 5.5.13
+-- Версия PHP: 5.3.8-ZS5.5.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- База данных: `blog`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `archive`
+--
+
+CREATE TABLE IF NOT EXISTS `archive` (
+  `type_id` int(10) NOT NULL,
+  `posts` varchar(5000) NOT NULL,
+  `date` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `bot_task_host`
+--
+
+CREATE TABLE IF NOT EXISTS `bot_task_host` (
+  `task` int(11) NOT NULL,
+  `host_id` int(11) NOT NULL,
+  `rate` float NOT NULL DEFAULT '0',
+  `in_process` int(11) NOT NULL DEFAULT '0',
+  KEY `host_id` (`host_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `bot_task_link`
+--
+
+CREATE TABLE IF NOT EXISTS `bot_task_link` (
+  `task` int(11) NOT NULL,
+  `link_id` int(11) NOT NULL,
+  `rate` float NOT NULL DEFAULT '0',
+  `in_process` int(11) NOT NULL DEFAULT '0',
+  KEY `link_id` (`link_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `file`
+--
+
+CREATE TABLE IF NOT EXISTS `file` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `ext` varchar(10) NOT NULL,
+  `rate` float NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=65 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `flink`
+--
+
+CREATE TABLE IF NOT EXISTS `flink` (
+  `url` varchar(2000) NOT NULL,
+  `file_id` int(10) NOT NULL,
+  `vars` varchar(100) NOT NULL,
+  `rate` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `guest`
+--
+
+CREATE TABLE IF NOT EXISTS `guest` (
+  `ip` varchar(100) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `host`
+--
+
+CREATE TABLE IF NOT EXISTS `host` (
+  `host` varchar(10000) NOT NULL DEFAULT '',
+  `id` int(12) NOT NULL AUTO_INCREMENT,
+  `user_id` int(12) NOT NULL DEFAULT '0',
+  `out_links` float NOT NULL DEFAULT '0',
+  `in_links` float NOT NULL DEFAULT '0',
+  `links_added` int(11) NOT NULL DEFAULT '0',
+  `out_links_count` int(12) NOT NULL DEFAULT '0',
+  `links_per_page` int(12) NOT NULL DEFAULT '1',
+  `code_uri` varchar(10000) NOT NULL DEFAULT '',
+  `theme_id` int(12) NOT NULL DEFAULT '0',
+  `ya_num` int(12) NOT NULL DEFAULT '-1',
+  `ya_page` int(12) NOT NULL DEFAULT '0',
+  `moderated` int(12) NOT NULL DEFAULT '-1',
+  `max_out_links_count` int(11) NOT NULL DEFAULT '1',
+  `in_links_count` int(12) NOT NULL DEFAULT '0',
+  `filled_time` int(15) NOT NULL DEFAULT '0',
+  `out_theme_links_count` int(11) NOT NULL DEFAULT '0',
+  `in_hosts_count` int(11) NOT NULL DEFAULT '0',
+  `max_out_links` float NOT NULL DEFAULT '0',
+  `reindex_time` int(11) NOT NULL DEFAULT '0',
+  `active` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=117 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `invite`
+--
+
+CREATE TABLE IF NOT EXISTS `invite` (
+  `invite` varchar(100) NOT NULL,
+  `user_id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `link`
+--
+
+CREATE TABLE IF NOT EXISTS `link` (
+  `uri` varchar(10000) NOT NULL DEFAULT '',
+  `host_id` int(12) NOT NULL DEFAULT '0',
+  `level` int(12) NOT NULL DEFAULT '0',
+  `id` int(12) NOT NULL AUTO_INCREMENT,
+  `out_links` int(11) NOT NULL DEFAULT '-1',
+  `YAC` int(12) NOT NULL DEFAULT '0',
+  `indexed` int(12) NOT NULL DEFAULT '0',
+  `my_out_links` int(12) NOT NULL DEFAULT '0',
+  `YAL` int(12) NOT NULL DEFAULT '0',
+  `weight` float NOT NULL DEFAULT '0',
+  `recount_time` int(11) NOT NULL DEFAULT '0',
+  `places_count` int(11) NOT NULL DEFAULT '-1',
+  PRIMARY KEY (`id`),
+  KEY `host` (`host_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3867 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `link_text`
+--
+
+CREATE TABLE IF NOT EXISTS `link_text` (
+  `text` varchar(1000) NOT NULL DEFAULT '',
+  `id` int(12) NOT NULL AUTO_INCREMENT,
+  `link_id` int(12) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `link` (`link_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=27 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `log`
+--
+
+CREATE TABLE IF NOT EXISTS `log` (
+  `msg` varchar(10000) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `notification`
+--
+
+CREATE TABLE IF NOT EXISTS `notification` (
+  `user_id` int(10) NOT NULL,
+  `post_id` int(10) NOT NULL,
+  `type` int(10) NOT NULL DEFAULT '0',
+  `readed` int(10) NOT NULL DEFAULT '0'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `post`
+--
+
+CREATE TABLE IF NOT EXISTS `post` (
+  `author_id` int(20) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` int(10) NOT NULL,
+  `rate` float NOT NULL,
+  `link` varchar(100) NOT NULL,
+  `pub` tinyint(1) NOT NULL,
+  `a` tinyint(4) NOT NULL,
+  `allow_rem` tinyint(1) NOT NULL,
+  `type_id` int(10) NOT NULL DEFAULT '1',
+  `parent` int(10) NOT NULL,
+  `safe` tinyint(1) NOT NULL,
+  `daily_rate` float NOT NULL,
+  `source` mediumtext,
+  `vars` varchar(1000) NOT NULL,
+  `content_id` int(10) NOT NULL,
+  `last_version` int(10) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`),
+  KEY `parent` (`parent`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=399 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `post_content`
+--
+
+CREATE TABLE IF NOT EXISTS `post_content` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `text` mediumtext NOT NULL,
+  `post_id` int(10) NOT NULL DEFAULT '0',
+  `ftext` text NOT NULL,
+  `version` int(10) NOT NULL,
+  `rate` float NOT NULL,
+  `a` float NOT NULL,
+  `daily_rate` float NOT NULL,
+  `source` longtext NOT NULL,
+  `vars` varchar(1000) NOT NULL DEFAULT '',
+  `author_id` int(10) NOT NULL,
+  `name` varchar(2000) NOT NULL,
+  PRIMARY KEY (`id`),
+  FULLTEXT KEY `ftext` (`ftext`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=451 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `safe_site`
+--
+
+CREATE TABLE IF NOT EXISTS `safe_site` (
+  `host` varchar(1000) NOT NULL,
+  `issafe` int(2) NOT NULL,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `shortcut`
+--
+
+CREATE TABLE IF NOT EXISTS `shortcut` (
+  `shortcut` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `subscribe`
+--
+
+CREATE TABLE IF NOT EXISTS `subscribe` (
+  `user_id` int(10) NOT NULL,
+  `post_id` int(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `theme`
+--
+
+CREATE TABLE IF NOT EXISTS `theme` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `link` varchar(100) NOT NULL,
+  `parent` int(10) NOT NULL,
+  `tree` varchar(200) NOT NULL,
+  `start` int(10) NOT NULL DEFAULT '0',
+  `pub` int(10) NOT NULL DEFAULT '1',
+  `user_id` int(20) NOT NULL DEFAULT '0',
+  `rate` float NOT NULL DEFAULT '0',
+  `full_name` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `parent` (`parent`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=50 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `tohost`
+--
+
+CREATE TABLE IF NOT EXISTS `tohost` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `donor_host_id` int(11) NOT NULL,
+  `acceptor_host_id` int(11) NOT NULL,
+  `links_count` int(11) NOT NULL DEFAULT '0',
+  `thematic` float NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `donor_host_id` (`donor_host_id`),
+  KEY `acceptor_host_id` (`acceptor_host_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `tolink`
+--
+
+CREATE TABLE IF NOT EXISTS `tolink` (
+  `acceptor_uri_id` int(12) NOT NULL,
+  `text` varchar(11000) NOT NULL,
+  `donor_uri_id` int(11) NOT NULL,
+  `YAL` int(12) NOT NULL DEFAULT '-1',
+  `check_time` int(12) NOT NULL DEFAULT '-1',
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `placed` int(12) NOT NULL DEFAULT '-1',
+  `tohost_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `tohost_id` (`tohost_id`),
+  KEY `donor_uri` (`donor_uri_id`),
+  KEY `acceptor_uri` (`acceptor_uri_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `type`
+--
+
+CREATE TABLE IF NOT EXISTS `type` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `link` varchar(100) NOT NULL,
+  `parent` int(10) NOT NULL,
+  `tree` varchar(200) NOT NULL,
+  `start` int(10) NOT NULL DEFAULT '0',
+  `pub` int(10) NOT NULL DEFAULT '1',
+  `user_id` int(20) NOT NULL DEFAULT '0',
+  `rate` float NOT NULL DEFAULT '0',
+  `full_name` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `parent` (`parent`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1003 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `user`
+--
+
+CREATE TABLE IF NOT EXISTS `user` (
+  `mail` varchar(100) NOT NULL,
+  `login` varchar(50) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `rate` float NOT NULL,
+  `date` int(10) NOT NULL,
+  `user_page` varchar(10000) NOT NULL,
+  `session` longtext,
+  `remixsid` varchar(100) DEFAULT NULL,
+  `parent_id` int(11) NOT NULL DEFAULT '0',
+  `photo` varchar(100) NOT NULL DEFAULT '',
+  `photo_rec` varchar(100) NOT NULL DEFAULT '',
+  `submit_secret` varchar(100) NOT NULL DEFAULT '',
+  `linkproj_user` varchar(200) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `login` (`login`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=53 ;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `var`
+--
+
+CREATE TABLE IF NOT EXISTS `var` (
+  `name` varchar(1000) NOT NULL,
+  `value` varchar(10000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `vk_friends_list`
+--
+
+CREATE TABLE IF NOT EXISTS `vk_friends_list` (
+  `vk_user_id` int(12) NOT NULL,
+  `list` blob NOT NULL,
+  `date` int(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `vk_user`
+--
+
+CREATE TABLE IF NOT EXISTS `vk_user` (
+  `vk_id` int(20) NOT NULL,
+  `first_name` varchar(50) NOT NULL,
+  `last_name` varchar(50) NOT NULL,
+  `user_id` int(10) NOT NULL DEFAULT '0',
+  `remixsid` blob NOT NULL,
+  `email` blob NOT NULL,
+  `pass` blob NOT NULL,
+  `photo_rec` varchar(10000) NOT NULL,
+  `photo` varchar(10000) NOT NULL,
+  `last_vk_friends_list_update` int(30) NOT NULL DEFAULT '0',
+  `vk_login_fail` int(12) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`vk_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `vote`
+--
+
+CREATE TABLE IF NOT EXISTS `vote` (
+  `obj_id` varchar(10) NOT NULL,
+  `user_id` varchar(10) NOT NULL,
+  `obj` int(10) NOT NULL DEFAULT '0',
+  `for_user_id` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Ограничения внешнего ключа сохраненных таблиц
+--
+
+--
+-- Ограничения внешнего ключа таблицы `bot_task_host`
+--
+ALTER TABLE `bot_task_host`
+  ADD CONSTRAINT `bot_task_host_ibfk_1` FOREIGN KEY (`host_id`) REFERENCES `host` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Ограничения внешнего ключа таблицы `bot_task_link`
+--
+ALTER TABLE `bot_task_link`
+  ADD CONSTRAINT `bot_task_link_ibfk_1` FOREIGN KEY (`link_id`) REFERENCES `link` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Ограничения внешнего ключа таблицы `link`
+--
+ALTER TABLE `link`
+  ADD CONSTRAINT `link_ibfk_1` FOREIGN KEY (`host_id`) REFERENCES `host` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Ограничения внешнего ключа таблицы `link_text`
+--
+ALTER TABLE `link_text`
+  ADD CONSTRAINT `link_text_ibfk_1` FOREIGN KEY (`link_id`) REFERENCES `link` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Ограничения внешнего ключа таблицы `tohost`
+--
+ALTER TABLE `tohost`
+  ADD CONSTRAINT `tohost_ibfk_5` FOREIGN KEY (`donor_host_id`) REFERENCES `host` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `tohost_ibfk_6` FOREIGN KEY (`acceptor_host_id`) REFERENCES `host` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Ограничения внешнего ключа таблицы `tolink`
+--
+ALTER TABLE `tolink`
+  ADD CONSTRAINT `tolink_ibfk_1` FOREIGN KEY (`tohost_id`) REFERENCES `tohost` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;

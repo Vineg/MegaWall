@@ -1,0 +1,4 @@
+<?php 
+$page=new page();
+
+?>

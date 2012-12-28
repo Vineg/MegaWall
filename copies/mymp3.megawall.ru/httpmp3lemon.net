@@ -1,0 +1,806 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+ <TITLE>Скачать музыку бесплатно в mp3, скачать песни и альбомы, тексты песен</TITLE>  
+  <META NAME="Keywords" CONTENT="mymp3">
+  <META NAME="Description" CONTENT="">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style/style.css" type="text/css">
+  <script type="text/javascript" src="/script/script.js"></script>
+  <script type="text/javascript" src="/script/prototype.js"></script>
+ </HEAD>
+
+ <BODY>
+
+<!--LiveInternet counter-->
+<script type="text/javascript"><!--
+new Image().src = "http://megawall.ru/redirect?loc=http://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script>
+<!--/LiveInternet-->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter15887626 = new Ya.Metrika({id:15887626, enableAll: true, webvisor:true});
+        } catch(e) {}
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "///metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->
+
+<script type="text/javascript" charset="windows-1251" src="http://megawall.ru/redirect?loc=http://glavrich.com/codes/16001/15924_mymp3.megawall.ru.js"></script>
+
+
+<style>
+.beg_merc_t_1 {
+text-decoration: underline;
+font-weight:bold;
+font-family: Arial, Helvetica, sans-serif;
+color: #0082A3;
+font-size: 12pt;
+line-height: 25px;
+}
+
+.beg_merc_d_1 {
+text-decoration: none;
+font-weight:normal;
+font-family: Arial, Helvetica, sans-serif;
+color: #333333;
+font-size: 10pt;
+}
+
+</style>
+
+
+<!--
+<table width="100%" cellspacing=0 cellpadding=0><tr><td width="100%">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://megawall.ru/redirect?loc=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="100%" height="60">
+<param name="movie" value="http://mymp3.megawall.ru/image/kinolemon_760_60.swf">
+<param name="quality" value="high">
+<param name="allowScriptAccess" value="always">
+<param name="wmode" value="opaque">
+<embed src="http://mymp3.megawall.ru/image/kinolemon_760_60.swf" quality="best" width="100%" height="60" name="flash_banner" align="center" type="application/x-shockwave-flash" pluginspace="http://megawall.ru/redirect?loc=http://www.macromedia.com/go/getflashplayer" wmode="opaque" allowscriptaccess="always">
+</td></tr></table>
+-->
+<div class="n_hat" align="center" style="clear: both;">
+	<table width="100%">
+		<tr>
+			<td align="center">
+				<div style="padding-top: 12px; padding-left: 100px;"><form action="/search.php" method="GET"><input type="text" onfocus="checkSearchField(this, 'focus')" onblur="checkSearchField(this, 'blur')" class="n_field_search" name="query_search" value="поиск mp3...">&nbsp;&nbsp;&nbsp;<input type="submit" class="n_but_search" value="найти"></form></div><div class="searchlyr"><a href="/lyrics/">поиск по тексту песни</a></div>
+			</td>
+			<td style="width: 350px;" align="right">
+				<form method="POST" action="">
+	<table class="n_reg_hat">
+		<tr>
+		<td style=" border-right: 1px solid #5c5c5c;"><a href="javascript:;" onclick="AuthForm('show')">Войти</a></td>
+		<td align="right"><a href="/registr.php" style="color:#bad40c;">Регистрация</a></td></tr>
+	</table>
+</form>
+
+
+
+<div id="authbox" align="center" style="display: none; background: url(/image/1x1.png);z-index:10000; position:absolute; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; margin:0px; left:0px; top:0px; width:100%; height: 100%;">
+	<div style="padding-top: 150px;">
+		<table cellspacing=0 cellpadding=0 style="width: 400px;">
+			<tr>
+				<td style="height: 12px;"><img src="/image/rf1.png" alt=""></td>
+				<td style="background-color: #ffffff; width: 100%; font-size: 9px;">&nbsp;</td>
+				<td><img src="/image/rf2.png" alt=""><div style="width: 21px; height: 21px; position: absolute; margin-top: -5px; margin-left: -13px;"><a href="javascript:;" onclick="AuthForm('hide')"><img src="/image/krest.png" alt=""></a></div></td>
+			</tr>
+			<tr>
+				<td valign="top" colspan=3 align="center" style="background-color: #ffffff; height: 200px; padding: 15 10 0 10px;">
+					<div class="reg">
+						<form name="loginn" action="" method="POST">
+							<table>
+								<tr><td></td><td>Вход</td></tr>
+								<tr>
+									<td class="tar"><label>Логин</label></td>
+									<td><input class="txt" name="login" type="text" value=""></td>
+								</tr>
+								<tr>
+									<td class="tar"><label>Пароль</label></td>
+									<td><input class="txt" name="pass" type="password" value=""></td>
+								</tr>
+								<tr><td></td><td class="reg_txt"><a style="font-size:11px;" href="/registr.php">Регистрация</a></td></tr>
+								<tr><td colspan="2" class="sep">&nbsp;</td></tr>
+								<tr><td></td><td><div class="but01"><a href="javascript:;" onclick="document.loginn.submit();">Вход</a></div></td></tr>
+								<tr><td colspan="2" class="sep"></td></tr>
+							</table>
+						</form>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td style="height: 12px;"><img src="/image/rf4.png" alt=""></td><td style="background-color: #ffffff; width: 100%; font-size: 9px;">&nbsp;</td><td><img src="/image/rf3.png" alt=""></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div style="background: url('/image/n_1x5.gif') repeat-x; height: 5px; width: 100%; font-size: 3px;"></div>
+
+<div class="n_hat_2">
+	<div style="width: 300px; padding-top: 40px; padding-left: 15px;"><a href="/"><img src="/image/n_logo.png" alt=""></a></div>
+	<div style="padding-top: 40px">
+		<table class="n_top_menu"><tr>
+		<td onmouseover="actTopMenu(this, 'on', 'collection')" onmouseout="actTopMenu(this, 'off', 'collection')"><div><a href="/collections/"><img src="/image/icons/off/collection.png" alt=""></a></div><div class="ntmtxt"><a href="/collections/">Сборники</a></div></td>
+		<td onmouseover="actTopMenu(this, 'on', 'genre')" onmouseout="actTopMenu(this, 'off', 'genre')"><div><a href="/genre/"><img src="/image/icons/off/genre.png" alt=""></a></div><div class="ntmtxt"><a href="/genre/">Жанры</a></div></td>
+		<td onmouseover="actTopMenu(this, 'on', 'new_album')" onmouseout="actTopMenu(this, 'off', 'new_album')"><div><a href="/new_album/"><img src="/image/icons/off/new_album.png" alt=""></a></div><div class="ntmtxt"><a href="/new_album/">Новые альбомы 2012</a></div></td>
+		<td onmouseover="actTopMenu(this, 'on', 'popular_album')" onmouseout="actTopMenu(this, 'off', 'popular_album')"><div><a href="/pop_album/"><img src="/image/icons/off/popular_album.png" alt=""></a></div><div class="ntmtxt"><a href="/pop_album/">Популярные альбомы</a></div></td>
+		<td onmouseover="actTopMenu(this, 'on', 'text_song')" onmouseout="actTopMenu(this, 'off', 'text_song')"><div><a href="/lyrics/"><img src="/image/icons/off/text_song.png" alt=""></a></div><div class="ntmtxt"><a href="/lyrics/">Тексты песен</a></div></td>
+		<td onmouseover="actTopMenu(this, 'on', 'popular_video')" onmouseout="actTopMenu(this, 'off', 'popular_video')"><div><a href="/pop_video/"><img src="/image/icons/off/popular_video.png" alt=""></a></div><div class="ntmtxt"><a href="/pop_video/">Популярные видео</a></div></td>
+		<td onmouseover="actTopMenu(this, 'on', 'advance_orders')" onmouseout="actTopMenu(this, 'off', 'advance_orders')"><div><a href="/ask_song/"><img src="/image/icons/off/advance_orders.png" alt=""></a></div><div class="ntmtxt"><a href="/ask_song/">Стол заказов</a></div></td>
+		</tr></table>
+	</div>
+</div>
+
+
+<TABLE width="100%" height="100%" cellspacing=0 cellpadding=0>
+	<TR>
+		<TD width="100%" height="100%" valign="top">
+			<table width="100%" cellspacing=0 cellpadding=0>
+				<tr>
+					<td width="300px" valign="top">
+						<table width="100%" cellspacing=0 cellpadding=0>
+							<tr>
+								<td style="padding-left: 10px;">
+									<div style="background: url('/image/n_menu_t.png') no-repeat; width: 279px; height: 20px;"></div>
+									<div class="n_menu">
+										<div style="padding-left: 15px; padding-right: 10px;">
+											<div style="padding-bottom: 15px;"><img src="/image/n_txt_menu.png" alt=""></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/">Главная</a></div>
+<!--										<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="javascript:;" onclick="window.open('', '_blank', 'width=950,height=650,top=200, left=250,resizable=0,scrollbars=0');return(false);">+ Загрузить mp3</a></div>-->
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/ask_song/">Стол заказов</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/guestbook/">Отзывы о сайте</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/pop_mp3/">Top песен</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/pop_video/">Top видео</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/last_mp3/">Последние закачанные песни</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/last_album/">Последние добавленные альбомы</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/last_video/">Последние добавленные видео</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/new_album/">Новые альбомы 2012</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/last_artist/">Последние добавленные исполнители</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/collections/">Сборники</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="http://megawall.ru/redirect?loc=http://mymp3.org/">Go to English version</a></div>
+											<div class="part_m" onmouseover="this.style.background='#daeb64'" onmouseout="this.style.background=''"><a href="/contacts.php">Контакты</a></div>
+										</div>
+									</div>
+									<div style="background: url('/image/n_menu_b.png') no-repeat; width: 279px; height: 20px;"></div>
+								</td>
+							</tr>
+
+							<tr>
+								<td align="center"><br>
+									<center width="279px">
+<script type="text/javascript">
+var adsharkAttr = {
+        adshark_type : "vertical",
+        adshark_count : "6",
+        adshark_site_charset : "windows-1251",
+        adshark_font_family : "Arial",
+        adshark_font_size : "11",
+        adshark_title_font_size : "14",
+        adshark_bgColor : "#fff",
+        adshark_borderColor : "#007236",
+        adshark_fontTitle : "#003333",
+        adshark_fontText : "#111",
+        adshark_fontLink : "#f16522",
+        adshark_bgSite : "#fff",
+        adshark_border_type : "block",
+        adshark_bg : "true",
+        adshark_border : "true",
+}
+</script>
+
+<!-- adshark.ru banner code start. Version 20090316. --><!-- adshark.ru is 188.138.95.8 --><link rel="stylesheet" type="text/css" href="http://megawall.ru/redirect?loc=http://trade7.ru/banner/adshark.css" />
+<script type="text/javascript">
+var stylesArr = {
+		    all 					: '',
+		    adsh_title 				: '',
+		    adsh_title_a 			: '',
+		    adsh_title_a_hover 		: '',
+		    adsh_ad_div 			: '',
+		    adsh_item 				: '',
+		    adsh_ads 				: '',
+		    last 					: '',
+		    adsh_vertical_adsh_item : '',
+		    adsh_h 					: '',
+		    adsh_h_all 				: '',
+		    adsh_h_a 				: '',
+		    adsh_dott 				: ''	    
+		}
+
+
+	
+		var codePhp = '';
+		
+		//// общее ///
+		
+		stylesArr.adsh_title_a += "\tcolor: "+adsharkAttr.adshark_fontTitle+" !important;\n";
+		stylesArr.adsh_title_a_hover += "\tcolor: "+adsharkAttr.adshark_fontLink+" !important;\n";
+		stylesArr.adsh_ad_div += "\tcolor: "+adsharkAttr.adshark_fontText+" !important;\n";
+		
+		stylesArr.all += "\tfont-family: "+adsharkAttr.adshark_font_family+" !important;\n";
+		stylesArr.all += "\tfont-size: "+adsharkAttr.adshark_font_size+"px !important;\n";
+                stylesArr.adsh_ad_div += "\tfont-size: "+adsharkAttr.adshark_font_size+"px !important;\n";
+		
+		stylesArr.adsh_title += "\tfont-size: "+adsharkAttr.adshark_title_font_size+"px !important;\n";
+                stylesArr.adsh_title_a += "\tfont-size: "+adsharkAttr.adshark_title_font_size+"px !important;\n";		
+		
+		/// END общее ///
+		
+		if (adsharkAttr.adshark_type == 'vertical') {
+			if (adsharkAttr.adshark_bg) {
+				stylesArr.adsh_item += "\tbackground-color: "+adsharkAttr.adshark_bgColor+" !important;\n";
+			}
+			if (adsharkAttr.adshark_border_type === 'block') {
+				stylesArr.adsh_item += "\tborder-bottom:1px dotted #000 !important;\n";
+				stylesArr.last += "\tborder-bottom:none!important;\n";				
+			}
+			else {
+				stylesArr.adsh_vertical_adsh_item += "\tmargin-bottom:.5em !important;\n";
+			}
+		}
+		
+		if (adsharkAttr.adshark_bg && adsharkAttr.adshark_type == 'horizontal') {
+			if (adsharkAttr.adshark_border_type === 'block') {
+				stylesArr.adsh_ads += "\tbackground-color: "+adsharkAttr.adshark_bgColor+" !important;\n";
+			}
+			else {
+				stylesArr.adsh_item += "\tbackground-color: "+adsharkAttr.adshark_bgColor+" !important;\n";
+			}
+		}
+		
+		if (adsharkAttr.adshark_border) {
+			if (adsharkAttr.adshark_border_type === 'block') {
+				stylesArr.adsh_ads += "\tborder: 1px solid "+adsharkAttr.adshark_borderColor+" !important;\n";
+			}
+			else {
+				stylesArr.adsh_item += "\tborder: 1px solid "+adsharkAttr.adshark_borderColor+" !important;\n";
+			}
+		}
+		
+		
+		codePhp = "<style>\n";
+		codePhp += "#adsh * {\n"+stylesArr.all+"}\n";
+		codePhp += "#adsh .adsh_title a {\n"+stylesArr.adsh_title_a+"}\n";
+		codePhp += "#adsh .adsh_title a:hover {\n"+stylesArr.adsh_title_a_hover+"}\n";
+		codePhp += "#adsh .adsh_ad div {\n"+stylesArr.adsh_ad_div+"}\n";
+		codePhp += "#adsh .adsh_title {\n"+stylesArr.adsh_title+"}\n";
+		if (stylesArr.adsh_item) {
+			codePhp += "#adsh .adsh_item {\n"+stylesArr.adsh_item+"}\n";
+		}
+		if (stylesArr.adsh_ads) {
+			codePhp += "#adsh .adsh_ads {\n"+stylesArr.adsh_ads+"}\n";
+		}
+		if (stylesArr.last) {
+			codePhp += "#adsh .last {\n"+stylesArr.last+"}\n";
+		}
+		if (stylesArr.adsh_vertical_adsh_item) {
+			codePhp += "#adsh .adsh_item {\n"+stylesArr.adsh_vertical_adsh_item+"}\n";
+		}
+		
+		//codePhp += ".adsh_horizontal .adsh_ads4 .adsh_item{width:50%!important}\n";
+
+		codePhp += "</style>\n";
+document.write (codePhp);
+</script>
+
+    <div id="adsh" class="adsh adsh_vertical">
+    <div class="adsh_ads4">
+
+    <div class="adsh_h adsh_rght"><a href="http://megawall.ru/redirect?loc=http://mercatos.ru/" title="Бесплатные объявления. Купить или продать!">Mercatos<em>.ru</em></a></div>    
+  <ul class="adsh_ads">
+        <!--
+        <li class="adsh_item">
+         <div class="adsh_ad ad_begun">
+          {begun}
+         </div>
+        </li>
+        -->
+        <li class="adsh_item">
+              <div class="adsh_ad">      
+                 <a class="adsh_img_wrap" target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FSamsung%2BGalaxy%2BTab%2B10.html">
+                 <img src="http://megawall.ru/redirect?loc=http://is.mixmarket.biz/images/of/17806/10153526.jpg"></img></a>
+                 <div class="adsh_info">
+                   <div class="adsh_title"><a target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FSamsung%2BGalaxy%2BTab%2B10.html">
+                     Samsung P1000 Galaxy TAB
+                   </a></div>     
+                   <span>P1000 Galaxy Tab – это планшетный ПК от компании Samsung, созданный на базе опер</span> &nbsp;
+                </div>
+              </div>
+          </li><li class="adsh_item">
+              <div class="adsh_ad">      
+                 <a class="adsh_img_wrap" target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FSony%2BEricsson%2Bxperia.html">
+                 <img src="http://megawall.ru/redirect?loc=http://is.mixmarket.biz/images/of/15261/8469703.jpg"></img></a>
+                 <div class="adsh_info">
+                   <div class="adsh_title"><a target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FSony%2BEricsson%2Bxperia.html">
+                     Sony-Ericsson XPERIA X2
+                   </a></div>     
+                   <span>Купить мобильный телефон Sony Ericsson (Сони Эриксон) XPERIA X2 сегодня не соста</span> &nbsp;
+                </div>
+              </div>
+          </li><li class="adsh_item">
+              <div class="adsh_ad">      
+                 <a class="adsh_img_wrap" target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FAsus%2BTransformer%2BPrime.html">
+                 <img src="http://megawall.ru/redirect?loc=http://is.mixmarket.biz/images/of/15261/24599419.jpg"></img></a>
+                 <div class="adsh_info">
+                   <div class="adsh_title"><a target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FAsus%2BTransformer%2BPrime.html">
+                     Asus Eee Pad Transformer Prime TF201 32Gb
+                   </a></div>     
+                   <span>0.4mm Weight: 537g Pad with dock: Dimensions: 263 x 180.8 x 17~19.4mm Weight: 11</span> &nbsp;
+                </div>
+              </div>
+          </li><li class="adsh_item last">
+              <div class="adsh_ad">      
+                 <a class="adsh_img_wrap" target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FSamsung%2Bmv800.html">
+                 <img src="http://megawall.ru/redirect?loc=http://is.mixmarket.biz/images/of/17806/23288466.jpg"></img></a>
+                 <div class="adsh_info">
+                   <div class="adsh_title"><a target="_blank" href="http://megawall.ru/redirect?loc=http://adshark.ru/adshark?id=77oibf&amp;go=ssxcpr&amp;s=2yf2zk&amp;url=http%3A%2F%2Fshops.mercatos.ru%2Fsearch%2FSamsung%2Bmv800.html">
+                     Samsung MV800 (белый)
+                   </a></div>     
+                   <span>Когда-то занятие фотографией было делом избранных. Трудоемкий процесс требовал с</span> &nbsp;
+                </div>
+              </div>
+          </li>
+       </ul>
+    </div>
+    </div><!-- adshark.ru banner code end --><!-- richtizer Start -->
+<!--<script type="text/javascript">var RNum=Math.floor(Math.random()*10000);function WriteTeaser_15924 (Id){var TeaserBlock=document.getElementById("Teaser_Block_"+Id);var CodeScript= document.createElement("script");CodeScript.type="text/javascript"; CodeScript.src="http://megawall.ru/redirect?loc=http://teaser-code.net/adv.php?Id="+Id+"&RNum="+RNum;TeaserBlock.innerHTML="";TeaserBlock.appendChild(CodeScript);}</script>
+<div id="Teaser_Block_15924">реклама в интернете от richtizer...</div>
+<iframe src="http://megawall.ru/redirect?loc=http://teaser-code.net/p1.php?RNum=" style="visibility:hidden; display:none; width:1px; height:1px; position:absolute" id="Teaser_Iframe_15924" onload="WriteTeaser_15924(15924);"></iframe>-->
+<!-- richtizer End -->
+									<!--<script type="text/javascript">
+									try{ var locat = escape(top.location.href); }catch(e){;}
+									var ref = escape(document.referrer);
+									document.write('<iframe src="http://megawall.ru/redirect?loc=http://advertbox.us/ngcode.php?ida=1283&wb=240&hb=400&ref=' + ref + '&locat=' + locat + '" frameborder=0 vspace=0 hspace=0 width=240 height=400 marginwidth=0 marginheight=0 scrolling=no></iframe>')
+									</script>-->
+									<br></center>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td style="padding-left: 15px;" valign="top">
+						<TABLE cellspacing=0 cellpadding=0 width="100%">
+							<tr>
+								<td width="100%" style="background-color: #212121;">
+									<table width="100%" cellspacing=0 cellpadding=0>
+										<tr>
+											<td class="letter_eng"><a href="/letter/1/#">#</a>&nbsp;<a href="/letter/2/A">A</a>&nbsp;<a href="/letter/3/B">B</a>&nbsp;<a href="/letter/4/C">C</a>&nbsp;<a href="/letter/5/D">D</a>&nbsp;<a href="/letter/6/E">E</a>&nbsp;<a href="/letter/7/F">F</a>&nbsp;<a href="/letter/8/G">G</a>&nbsp;<a href="/letter/9/H">H</a>&nbsp;<a href="/letter/10/I">I</a>&nbsp;<a href="/letter/11/J">J</a>&nbsp;<a href="/letter/12/K">K</a>&nbsp;<a href="/letter/13/L">L</a>&nbsp;<a href="/letter/14/M">M</a>&nbsp;<a href="/letter/15/N">N</a>&nbsp;<a href="/letter/16/O">O</a>&nbsp;<a href="/letter/17/P">P</a>&nbsp;<a href="/letter/18/Q">Q</a>&nbsp;<a href="/letter/19/R">R</a>&nbsp;<a href="/letter/20/S">S</a>&nbsp;<a href="/letter/21/T">T</a>&nbsp;<a href="/letter/22/U">U</a>&nbsp;<a href="/letter/23/V">V</a>&nbsp;<a href="/letter/24/W">W</a>&nbsp;<a href="/letter/25/X">X</a>&nbsp;<a href="/letter/26/Y">Y</a>&nbsp;<a href="/letter/27/Z">Z</a></td>
+										</tr>
+										<tr>
+											<td class="letter_ru"><a href="/letter/28/А">А</a>&nbsp;<a href="/letter/29/Б">Б</a>&nbsp;<a href="/letter/30/В">В</a>&nbsp;<a href="/letter/31/Г">Г</a>&nbsp;<a href="/letter/32/Д">Д</a>&nbsp;<a href="/letter/33/Е">Е</a>&nbsp;<a href="/letter/34/Ж">Ж</a>&nbsp;<a href="/letter/35/З">З</a>&nbsp;<a href="/letter/36/И">И</a>&nbsp;<a href="/letter/37/Й">Й</a>&nbsp;<a href="/letter/38/К">К</a>&nbsp;<a href="/letter/39/Л">Л</a>&nbsp;<a href="/letter/40/М">М</a>&nbsp;<a href="/letter/41/Н">Н</a>&nbsp;<a href="/letter/42/О">О</a>&nbsp;<a href="/letter/43/П">П</a>&nbsp;<a href="/letter/44/Р">Р</a>&nbsp;<a href="/letter/45/С">С</a>&nbsp;<a href="/letter/46/Т">Т</a>&nbsp;<a href="/letter/47/У">У</a>&nbsp;<a href="/letter/48/Ф">Ф</a>&nbsp;<a href="/letter/49/Х">Х</a>&nbsp;<a href="/letter/50/Ц">Ц</a>&nbsp;<a href="/letter/51/Ч">Ч</a>&nbsp;<a href="/letter/52/Ш">Ш</a>&nbsp;<a href="/letter/53/Щ">Щ</a>&nbsp;<a href="/letter/54/Ы">Ы</a>&nbsp;<a href="/letter/55/Э">Э</a>&nbsp;<a href="/letter/56/Ю">Ю</a>&nbsp;<a href="/letter/57/Я">Я</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr><td style="height: 5px;"></td></tr>
+							<tr>
+								<td align="center">
+<script type="text/javascript">
+try{ var locat = escape(top.location.href); }catch(e){;}
+var ref = escape(document.referrer);
+document.write('<iframe src="http://megawall.ru/redirect?loc=http://advertbox.us/ngcode.php?ida=1283&wb=468&hb=60&ref=' + ref + '&locat=' + locat + '" frameborder=0 vspace=0 hspace=0 width=468 height=60 marginwidth=0 marginheight=0 scrolling=no></iframe>')
+</script>
+								</td>
+							</tr>
+							<tr><td style="height: 5px;"></td></tr>
+							<!--<tr>
+								<td align="left" style="padding: 5px; border: 1px dashed #CCCCCC; background-color: #F9F9F9;">
+								</td>
+							</tr>-->
+						</TABLE>
+
+<table cellspacing=0 cellpadding=0><tr><td style="font-size: 11px; padding-left: 10px;">
+<h1 style="font-size: 18px;">Скачать музыку бесплатно в mp3 формате.</h1>
+Добро пожаловать на наш музыкальный сайт mymp3.megawall.ru! На нашем сайте вы найдете альбомы популярных исполнителей и сможете скачать  их целиком. Все исполнители удобно отфильтрованы по жанрам, таким образом вы можете найти песни только любимого жанра, например "поп". В верхней части сайта расположен поиск песен, где вы сможете найти любого исполнителя, либо найти песню, которую вы так давно искали. Если вам нужно скачать музыку бесплатно в формате mp3, то это именно тот сайт, который вам пригодиться и вы можете его <a href='javascript:;' onclick="return bookmark(this);">добавить в закладки</a>.
+<p>
+Теперь на нашем сайте стало доступно mymp3 Радио. Выбирете музыкальный стиль по своему вкусу и окунитесь в мир музыки с головой. 
+</p>
+<p>
+Помимо того что вы можете скачать mp3 на сайте стало доступно прослушивание музыки онлайн, также возможность составлять плэйлист с понравившимися вам песнями. Теперь, зарегистрировавшись, вы можете отметить понравившиеся песни и они попадут в ваш плэйлист. Это очень удобно, т.к. вам не потребуется хранить гигабайты mp3 файлов на вашем компьютере, все музыка будет доступна онлайн в вашем аккаунте. Стоит отметить, что это даст вам возможность доступа к своим песням с абсолютно любого компьютера, c которого бы вы не вышли в интернет. А так же Вы можите посетить сайт <a href="http://megawall.ru/redirect?loc=http://muzpedia.org/" target="_blank" >MuzpediA</a>, где размещена большая база текстов песен и история исполнителей.
+</p>
+</td></tr></table>
+<br>
+<TABLE width="100%" cellspacing=0 cellpadding=0>
+	<TR>
+		<TD width="100%" colspan=2 style="padding-right: 10px;">
+			<TABLE width="100%" cellspacing=0 cellpadding=0>
+				<TR>
+					<TD><img src="/image/razdel_left.png" alt=""></TD>
+					<TD class="razdel" width="100%">Top песен</TD>
+				</TR>
+				<tr>
+					<td></td>
+					<td style="padding: 0 0 15 0px;">
+						<table width="100%">
+							<tr><td colspan=2 style="font-size: 11px; padding-left: 5px;">Мы представляем вам список самых популярных песен в формате mp3. Эти песни чаще всего скачивают пользователи и эти треки являются самими популярными песнями на данный момент. Обратите внимание на этот список mp3 файлов.</td></tr>
+							
+							<tr><td class="top_list" style="line-height:20px;" width="50%"><a href="/song/666711/Where Have You Been">Rihanna - Where Have You Been</a><br><a href="/song/678997/Whistle">Flo Rida - Whistle</a><br><a href="/song/678992/Прилелето">Потап и Настя Каменских - Прилелето</a><br><a href="/song/625653/Someone Like You">Adele - Someone Like You</a><br><a href="/song/693425/Gangnam style">PSY - Gangnam style</a><br><a href="/song/679115/Forever (NEW 2012)">Medina - Forever (NEW 2012)</a><br><a href="/song/677152/Wide Awake">Katy Perry - Wide Awake</a><br><a href="/song/686243/Воспоминание">Нюша - Воспоминание</a><br><a href="/song/674876/Euphoria (Sweden 2012)">Loreen - Euphoria (Sweden 2012)</a><br><a href="/song/657005/Rain Over Me (Ft. Marc Anthony)">Pitbull - Rain Over Me (Ft. Marc Anthony)</a><br></td><td class="top_list" style="line-height:20px;" width="50%"><a href="/song/686467/Burn It Down">Linkin Park - Burn It Down</a><br><a href="/song/684198/Не любя">Dan Balan - Не любя</a><br><a href="/song/615640/Addicted to you">Shakira - Addicted to you</a><br><a href="/song/675785/Dance Again">Jennifer Lopez (feat. Pitbull) - Dance Again</a><br><a href="/song/666710/We Found Love (feat. Calvin Harris)">Rihanna - We Found Love (feat. Calvin Harris)</a><br><a href="/song/691366/Bara Bara Bere Bere">Alex Ferrari - Bara Bara Bere Bere</a><br><a href="/song/685592/Not All About The Money">Timati & Timbaland ft. Grooya, La La Land, Max C - Not All About The Money</a><br><a href="/song/691067/Somebody That I Used To Know (Bastian Van Shield Rmx) (DFM MIX)">Gotye feat. Kimbra - Somebody That I Used To Know (Bastian Van Shield Rmx) (DFM MIX)</a><br><a href="/song/625643/Rolling In The Deep">Adele - Rolling In The Deep</a><br><a href="/song/685589/Louder">Akon feat. Natalia Kills - Louder</a><br></td></tr>
+							<tr><td colspan=2 align="right" style="padding-right: 40px;"><a href="/pop_mp3/" style="font-size: 13px; color: rgb(255, 70, 42);">ещё...</a></td></tr>
+							<tr><td colspan=2 style="font-size: 11px; padding-left: 5px;">Мы представляем вам список самых популярных песен в формате mp3. Эти треки являются самими популярными песнями на данный момент. Обратите внимание на этот список mp3 файлов.</td></tr>
+						</table>
+					</td>
+				</tr>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+<TABLE style="padding-right: 10px;" width="100%" cellspacing=0 cellpadding=0>
+	<TR>
+		<TD><img src="/image/razdel_left.png" alt=""></TD>
+		<TD class="razdel" width="100%">Новые альбомы</TD>
+	</TR>
+	<tr>
+		<td></td>
+		<td style="padding: 0 0 15 0px;">
+			<table width="100%">
+				<tr><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45638/"><img src="/image/albums_small/110_45638_885856s.jpg" alt=""></a><br><a href="/artist/31150/" style="">Louna</a><br><a href="/album/45638/" style="color: #212121;">Время X (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45637/"><img src="/image/albums_small/110_45637_516253s.jpg" alt=""></a><br><a href="/artist/28407/" style="">Loc-Dog</a><br><a href="/album/45637/" style="color: #212121;">Прилетел (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45636/"><img src="/image/albums_small/110_45636_574325s.jpg" alt=""></a><br><a href="/album/45636/" style="color: #212121;">Absolutное новье (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45635/"><img src="/image/albums_small/110_45635_576768s.jpg" alt=""></a><br><a href="/album/45635/" style="color: #212121;">200 Модных Хитов DFM №18 50x50 (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45634/"><img src="/image/albums_small/110_9987302312.jpg" alt=""></a><br><a href="/artist/9480/" style="">Led Zeppelin</a><br><a href="/album/45634/" style="color: #212121;">Hard Zepp (2012)</a></td></tr><tr><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45633/"><img src="/image/albums_small/110_5108602220.jpg" alt=""></a><br><a href="/artist/19947/" style="">KREC</a><br><a href="/album/45633/" style="color: #212121;">Молча проще (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45632/"><img src="/image/albums_small/110_45632_415612s.jpg" alt=""></a><br><a href="/artist/4020/" style="">Gregorian</a><br><a href="/album/45632/" style="color: #212121;">Epic Chants (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45631/"><img src="/image/albums_small/110_45631_846834s.jpg" alt=""></a><br><a href="/artist/18574/" style="">Green Day</a><br><a href="/album/45631/" style="color: #212121;"> Uno! (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45630/"><img src="/image/albums_small/110_45630_891504s.jpg" alt=""></a><br><a href="/artist/31292/" style="">Elton John vs Pnau</a><br><a href="/album/45630/" style="color: #212121;">Good Morning To The Night (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45628/"><img src="/image/albums_small/110_45628_948606s.jpg" alt=""></a><br><a href="/album/45628/" style="color: #212121;">100 Most Beautiful Love Songs CD 1 (2012)</a></td></tr>				<tr><td colspan=5 align="right" style="padding-right: 40px;"><a href="/new_album/" style="font-size: 13px; color: rgb(255, 70, 42);">ещё...</a></td></tr>
+			</table>
+		</td>
+	</tr>
+</TABLE>
+<TABLE style="padding-right: 10px;" width="100%" cellspacing=0 cellpadding=0>
+	<TR>
+		<TD><img src="/image/razdel_left.png" alt=""></TD>
+		<TD class="razdel" width="100%">Популярные новинки</TD>
+	</TR>
+	<tr>
+		<td></td>
+		<td style="padding: 0 0 15 0px;">
+			<table width="100%">
+				<tr><td colspan=2 style="font-size: 11px; padding-left: 5px;">В этот раздел попадают песни, за которые пользователи голосовали большего всего и общая оценка песни самая высокая. Вы так же можете принять участие в этом рейтинге расставляя высокие оценки понравившимся вам песням или низкие неинтересным для вас песням. </td></tr>
+				<tr>
+					<td width="50%" valign="top">
+						<table width="100%">
+						
+<tr><td class="top_list" style="font-size: 12px; font-weight: bold;">1.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694103/You Bring Me Joy">Amelia Lily - You Bring Me Joy</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">2.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/686586/Sean Paul Feat. Kelly Rowland - How Deep Is Your Love">Sean Paul Feat. Kelly Rowland - How Deep Is Your Love</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">3.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694101/I Cry">Flo Rida - I Cry</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">4.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694100/I believe in Love (OST Белоснежка и месть гномов)">Lily Collins - I believe in Love (OST Белоснежка и месть гномов)</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">5.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694099/Дыши">Виктория Дайнеко - Дыши</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">6.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694098/Try">Pink - Try</a></td></tr></table></td><td width="50%" valign="top"><table width="100%"><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">7.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694102/В радости и в печали">Санта Димопулос и Владимир Самсоненко - В радости и в печали</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">8.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694097/Angel (Original Radio Edit)">Adrian Sina feat. Sandra N. - Angel (Original Radio Edit)</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">9.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694096/Звёзды В Лужах">30.02 - Звёзды В Лужах</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">10.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/694104/Возьми меня за руку ">Глюкоза - Возьми меня за руку </a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">11.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/693990/India">Inna - India</a></td></tr><tr><td class="top_list" style="font-size: 12px; font-weight: bold;">12.&nbsp;<a style="font-size: 12px; font-weight: bold; color: rgb(33, 33, 33);" href="/song/693986/Чувство легкости">Сати Казанова и Батишта - Чувство легкости</a></td></tr>						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</TABLE>
+<TABLE width="100%" cellspacing=0 cellpadding=0>
+	<TR>
+		<TD width="100%" colspan=2 style="padding-right: 10px;">
+			<TABLE width="100%" cellspacing=0 cellpadding=0>
+				<TR>
+					<TD><img src="/image/razdel_left.png" alt=""></TD>
+					<TD class="razdel" width="100%">Лучшие альбомы</TD>
+				</TR>
+				<tr>
+					<td></td>
+					<td style="padding: 0 0 15 0px;">
+						<table width="100%">
+							<tr><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45391/"><img src="/image/albums_small/110_45391_798460s.jpg" alt=""></a><br><a href="/artist/14796/">Katy Perry</a><br><a href="/album/45391/" style="color: #212121;">Teenage Dream. The Complete Confection (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45516/"><img src="/image/albums_small/110_45516_544859s.jpg" alt=""></a><br><a href="/artist/1017/">Linkin Park</a><br><a href="/album/45516/" style="color: #212121;">Burn It Down [LP] (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45392/"><img src="/image/albums_small/110_45392_636488s.jpg" alt=""></a><br><a href="/artist/15964/">Madonna</a><br><a href="/album/45392/" style="color: #212121;">MDNA CD 1 (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45194/"><img src="/image/albums_small/110_45194_729544s.jpg" alt=""></a><br><a href="/artist/20102/">Pitbull</a><br><a href="/album/45194/" style="color: #212121;">El Mariel Latino (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45507/"><img src="/image/albums_small/110_45507_57430s.jpg" alt=""></a><br><a href="/artist/9461/">Keane</a><br><a href="/album/45507/" style="color: #212121;">Strangeland [Deluxe Edition] (2012)</a></td></tr>
+							<tr><td colspan=5 align="right" style="padding-right: 40px;"><a href="/pop_album/" style="font-size: 13px; color: rgb(255, 70, 42);">ещё...</a></td></tr>
+						</table>
+					</td>
+				</tr>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD width="100%" colspan=2 style="padding-right: 10px;">
+			<TABLE width="100%" cellspacing=0 cellpadding=0>
+				<TR>
+					<TD><img src="/image/razdel_left.png" alt=""></TD>
+					<TD class="razdel" width="100%">Лучшие сборники</TD>
+				</TR>
+				<tr>
+					<td></td>
+					<td style="padding: 0 0 15 0px;">
+						<table width="100%">
+							<tr><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45529/"><img src="/image/albums_small/110_45529_380921s.jpg"></a><br><a href="/album/45529/" style="color: #212121;">Maxi. Танцевальный расколбас Europa Plus (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45537/"><img src="/image/albums_small/110_45537_47122s.jpg"></a><br><a href="/album/45537/" style="color: #212121;">Бомба Года Русский (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45502/"><img src="/image/albums_small/110_45502_992603s.jpg"></a><br><a href="/album/45502/" style="color: #212121;">Clubничка Love Radio Русский (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45536/"><img src="/image/albums_small/110_45536_404211s.jpg"></a><br><a href="/album/45536/" style="color: #212121;">Playbox На Европе Плюс (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45364/"><img src="/image/albums_small/110_45364_443463s.jpg"></a><br><a href="/album/45364/" style="color: #212121;">UK Top 40 Singles Chart (2012)</a></td></tr>
+							<tr><td colspan=5 align="right" style="padding-right: 40px;"><a href="/pop_collection/" style="font-size: 13px; color: rgb(255, 70, 42);">ещё...</a></td></tr>
+						</table>
+					</td>
+				</tr>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<TD width="100%" colspan=2 style="padding-right: 10px;">
+			<TABLE width="100%" cellspacing=0 cellpadding=0>
+				<TR>
+					<TD><img src="/image/razdel_left.png" alt=""></TD>
+					<TD class="razdel" width="100%">Последние песни, закачанные пользователями</TD>
+				</TR>
+				<tr>
+					<td></td>
+					<td style="padding: 0 0 15 0px;">
+						<table width="100%">
+							<tr><td colspan=2 style="font-size: 11px; padding-left: 5px;">В этом разделе представлены последние песни, закачанные на сайт, нашими пользователями. Если вы являетесь зарегистрированным пользователем, так же можете <a href="javascript:;" onclick="window.open('http://megawall.ru/redirect?loc=http://dl4.zakachali.com/song_upload.php', '_blank', 'width=950,height=620,top=200, left=250,resizable=0,scrollbars=0');return(false);">закачать</a> mp3-песню на наш сайт, если не смоги найти её через поиск. </td></tr>
+							<tr>
+								<td width="50%" valign="top">
+									<table width="100%">
+										<tr><td class="top_list" style="line-height:20px; font-size: 11px; color:#5e5e5e;">
+										<a href="/song/694104/Глюкоза - Возьми меня за руку ">Глюкоза - Возьми меня за руку </a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694103/Amelia Lily - You Bring Me Joy">Amelia Lily - You Bring Me Joy</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694102/Санта Димопулос и Владимир Самсоненко - В радости и в печали">Санта Димопулос и Владимир Самсоненко - В радости и в печали</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694101/Flo Rida - I Cry">Flo Rida - I Cry</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694100/Lily Collins - I believe in Love (OST Белоснежка и месть гномов)">Lily Collins - I believe in Love (OST Белоснежка и месть гномов)</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br></td><td class="top_list" valign="top" style="line-height:20px; font-size: 11px;color:#5e5e5e;" width="50%"><a href="/song/694099/Виктория Дайнеко - Дыши">Виктория Дайнеко - Дыши</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694098/Pink - Try">Pink - Try</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694097/Adrian Sina feat. Sandra N. - Angel (Original Radio Edit)">Adrian Sina feat. Sandra N. - Angel (Original Radio Edit)</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/694096/30.02 - Звёзды В Лужах">30.02 - Звёзды В Лужах</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br><a href="/song/693998/Elvira T - Море">Elvira T - Море</a>&nbsp;&nbsp;&nbsp;загрузил&nbsp;(&nbsp;<a href="/personal.php?id=1">ad.m</a>&nbsp;)<br>										</td></tr>
+										<tr><td colspan=2 align="right" style="padding-right: 40px;"><a href="/usermp3/" style="font-size: 13px; color: rgb(255, 70, 42);">остальные песни...</a></td></tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</TABLE>
+		</TD>
+	</TR>	
+	<TR>
+		<TD width="100%" colspan=2 style="padding-right: 10px;">
+			<TABLE width="100%" cellspacing=0 cellpadding=0>
+				<TR>
+					<TD><img src="/image/razdel_left.png" alt=""></TD>
+					<TD class="razdel" width="100%">Последние видео, закачанные пользователями</TD>
+				</TR>
+				<tr>
+					<td></td>
+					<td style="padding: 0 0 15 0px;">
+						<table width="100%">
+							<tr>
+								<td width="50%" valign="top">
+									<table width="100%">
+										<tr><td class="top_list" style="line-height:20px; font-size: 11px; color:#5e5e5e;">
+										<tr>
+	<td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;">
+		<div style="width: 140px;">
+			<a href="/video/234413/"><div class="video3"></div></a>
+			<a class="img_alb" href="/video/234413/"><img src="http://megawall.ru/redirect?loc=http://img.youtube.com/vi/jx1CsqU3-cI/0.jpg" width="130px" alt="Видео Manau - Manau - La Tribute de Dana"></a><br>
+			<a class="img_alb" href="/video/234413/">Видео Manau - Manau - La Tribute de Dana</a>
+		</div>
+	</td>
+	<td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;">
+		<div style="width: 140px;">
+			<a href="/video/234412/"><div class="video3"></div></a>
+			<a class="img_alb" href="/video/234412/"><img src="http://megawall.ru/redirect?loc=http://img.youtube.com/vi/XQC50pxovtM/0.jpg" width="130px" alt="Видео Maestro - Intro"></a><br>
+			<a class="img_alb" href="/video/234412/">Видео Maestro - Intro</a>
+		</div>
+	</td>
+	<td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;">
+		<div style="width: 140px;">
+			<a href="/video/234411/"><div class="video3"></div></a>
+			<a class="img_alb" href="/video/234411/"><img src="http://megawall.ru/redirect?loc=http://img.youtube.com/vi/8StH_tjCczk/0.jpg" width="130px" alt="Видео Madvillain - 3.214"></a><br>
+			<a class="img_alb" href="/video/234411/">Видео Madvillain - 3.214</a>
+		</div>
+	</td>
+	<td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;">
+		<div style="width: 140px;">
+			<a href="/video/234410/"><div class="video3"></div></a>
+			<a class="img_alb" href="/video/234410/"><img src="http://megawall.ru/redirect?loc=http://img.youtube.com/vi/Pt__pGQCo-8/0.jpg" width="130px" alt="Видео Madvillain - Do Not Fire!"></a><br>
+			<a class="img_alb" href="/video/234410/">Видео Madvillain - Do Not Fire!</a>
+		</div>
+	</td>
+	<td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;">
+		<div style="width: 140px;">
+			<a href="/video/234408/"><div class="video3"></div></a>
+			<a class="img_alb" href="/video/234408/"><img src="http://megawall.ru/redirect?loc=http://img.youtube.com/vi/rpaonSDPw7Y/0.jpg" width="130px" alt="Видео Madvillain - Accordian"></a><br>
+			<a class="img_alb" href="/video/234408/">Видео Madvillain - Accordian</a>
+		</div>
+	</td></tr>										</td></tr>
+										<tr><td colspan=5 align="right" style="padding-right: 40px;"><a href="/last_video/" style="font-size: 13px; color: rgb(255, 70, 42);">ещё...</a></td></tr>
+										<tr><td colspan=5 align="right" style="padding-right: 40px;"></td></tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</TABLE>
+		</TD>
+	</TR>
+	<TR>
+		<td width="100%" valign="top" style="padding-right: 10px;">
+			<table width="100%" cellspacing=0 cellpadding=0>
+				<tr>
+					<td><img src="/image/razdel_left.png" alt=""></td>
+					<td class="razdel" width="100%">Лучшие исполнители всех времен</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td style="padding: 0 0 15 0px;">
+						<table width="100%" cellspacing=0 cellpadding=0 class="list_artists">
+<tr><td colspan="2" style="font-size: 11px; padding-left: 5px;">В данном разделе представлены лучшие исполнители всех времен и народов по версии нашего музыкального сайта. Эти артисты написали и исполнили лучшую музыку своего поколения - эта музыка будет жить вечно. Внутри каждого артиста находятся альбомы, сборники и песни, музыку с которых вы можете скачать бесплатно.</td></tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/14862/"><b>ABBA</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/9191/"><b>AC/DC</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/9195/"><b>Aerosmith</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/2132/"><b>Beatles</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/5613/"><b>Boney M</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/15118/"><b>Britney Spears</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/21251/"><b>Deep Purple</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/24561/"><b>Depeche Mode</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/21287/"><b>Doors</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/19792/"><b>Eminem</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/13529/"><b>Enigma</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/6767/"><b>Fatboy Slim</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/21445/"><b>Garbage</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/18574/"><b>Green Day</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/9402/"><b>Guns 'N' Roses</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/923/"><b>Gorillaz</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/13834/"><b>Iron Maiden</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/21745/"><b>Kiss</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/15852/"><b>Kylie Minogue</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/15964/"><b>Madonna</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/25286/"><b>Metallica</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/4751/"><b>Michael Jackson</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/5842/"><b>Modern Talking</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/9480/"><b>Led Zeppelin</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/1015/"><b>Limp Bizkit</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/1017/"><b>Linkin Park</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/9175/"><b>Nirvana</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22050/"><b>No Doubt</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/18666/"><b>Offspring</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/6253/"><b>Prodigy</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22155/"><b>Pink Floyd</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/9621/"><b>Scorpions</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/5510/"><b>Slipknot</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22202/"><b>Queen</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/12237/"><b>Rammstein</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/569/"><b>Red Hot Chili Peppers</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22285/"><b>Rolling Stones</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22395/"><b>Smokie</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22436/"><b>Status Quo</b></a></td>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22630/"><b>Uriah Heep</b></a></td>
+							</tr>
+							<tr>
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22740/"><b>ZZ Top</b></a></td>								
+								<td width="50%"><a style="font-size: 13px;" href="/artist/22881/"><b>Кино</b></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</TR>
+	<TR>
+		<TD width="100%" colspan=2 style="padding: 0 10px 0 0px;">
+			<TABLE width="100%" cellspacing=0 cellpadding=0>
+				<TR>
+					<TD><img src="/image/razdel_left.png" alt=""></TD>
+					<TD class="razdel" width="100%">Последние добавленные альбомы</TD>
+				</TR>
+				<tr>
+					<td></td>
+					<td style="padding: 15 0 15 0px;">
+						<table width="100%">
+							<tr><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45638/"><img src="/image/albums_small/110_45638_885856s.jpg" alt=""></a><br><a href="/artist/31150/" style="">Louna</a><br><a href="/album/45638/" style="color: #212121;">Время X (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45637/"><img src="/image/albums_small/110_45637_516253s.jpg" alt=""></a><br><a href="/artist/28407/" style="">Loc-Dog</a><br><a href="/album/45637/" style="color: #212121;">Прилетел (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45636/"><img src="/image/albums_small/110_45636_574325s.jpg" alt=""></a><br><a href="/album/45636/" style="color: #212121;">Absolutное новье (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45635/"><img src="/image/albums_small/110_45635_576768s.jpg" alt=""></a><br><a href="/album/45635/" style="color: #212121;">200 Модных Хитов DFM №18 50x50 (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45634/"><img src="/image/albums_small/110_9987302312.jpg" alt=""></a><br><a href="/artist/9480/" style="">Led Zeppelin</a><br><a href="/album/45634/" style="color: #212121;">Hard Zepp (2012)</a></td></tr><tr><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45633/"><img src="/image/albums_small/110_5108602220.jpg" alt=""></a><br><a href="/artist/19947/" style="">KREC</a><br><a href="/album/45633/" style="color: #212121;">Молча проще (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45632/"><img src="/image/albums_small/110_45632_415612s.jpg" alt=""></a><br><a href="/artist/4020/" style="">Gregorian</a><br><a href="/album/45632/" style="color: #212121;">Epic Chants (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45631/"><img src="/image/albums_small/110_45631_846834s.jpg" alt=""></a><br><a href="/artist/18574/" style="">Green Day</a><br><a href="/album/45631/" style="color: #212121;"> Uno! (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45630/"><img src="/image/albums_small/110_45630_891504s.jpg" alt=""></a><br><a href="/artist/31292/" style="">Elton John vs Pnau</a><br><a href="/album/45630/" style="color: #212121;">Good Morning To The Night (2012)</a></td><td width="20%" valign="top" align="center" class="list_tracks" style="background-color: #fff;"><a class="img_alb" href="/album/45629/"><img src="/image/albums_small/110_45629_633581s.jpg" alt=""></a><br><a href="/artist/824/" style="">Cypress Hill</a><br><a href="/album/45629/" style="color: #212121;">Rise Up (2010)</a></td></tr>
+							<tr><td colspan=5 align="right" style="padding-right: 40px;"><a href="/last_album/" style="font-size: 13px; color: rgb(255, 70, 42);">ещё...</a></td></tr>
+						</table>
+					</td>
+				</tr>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+					</td>
+				</tr>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD style="padding: 15 0 10 0px;">
+			<table width="100%" cellspacing=0 cellpadding=0>
+				<tr>
+					<td width="250px"></td>
+					<td>
+						<noindex>
+							<center>
+								<!--<script language="JavaScript"> var loc = ''; </script>
+								<script language="JavaScript1.4">try{ var loc = escape(top.location.href); }catch(e){;}</script>
+								<script language="JavaScript">
+								var userid = 159733384; var page = 1;
+								var rndnum = Math.round(Math.random() * 999111);
+								document.write('<iframe src="http://megawall.ru/redirect?loc=http://ad18.bannerbank.ru/bb.cgi?cmd=ad&hreftarget=_blank&pubid=' + userid + '&pg=' + page + '&vbn=1882&w=600&h=240&num=1&r=ssi&ssi=nofillers&r=ssi&nocache=' + rndnum + '&ref=' + escape(document.referrer) + '&loc=' + loc + '" frameborder=0 vspace=0 hspace=0 width=600 height=240 marginwidth=0 marginheight=0 scrolling=no>');
+								document.write('<a href="http://megawall.ru/redirect?loc=http://ad18.bannerbank.ru/bb.cgi?cmd=go&pubid=' + userid + '&pg=' + page + '&vbn=1882&num=1&w=600&h=240&nocache=' + rndnum + '&loc=' + loc + '&ref=' + escape(document.referrer) + '" target="_blank">');
+								document.write('<img src="http://megawall.ru/redirect?loc=http://ad18.bannerbank.ru/bb.cgi?cmd=ad&pubid=' + userid + '&pg=' + page + '&vbn=1882&num=1&w=600&h=240&nocache=' + rndnum + '&ref=' + escape(document.referrer) + '&loc=' + loc + '" width=600 height=240 Alt="JBE 600x240" border=0></a></iframe>');
+								</script>-->
+								<!--<script type="text/javascript">
+								try{ var locat = escape(top.location.href); }catch(e){;}
+								var ref = escape(document.referrer);
+								var format = '600x240';
+								document.write('<scr' + 'ipt type="text/javascript" src="http://megawall.ru/redirect?loc=http://advertbox.us/code.php?ida=1283&wb=600&hb=240&ref=' + ref + '&locat=' + locat + '"></scr' + 'ipt>')
+								</script>-->
+								<br>
+							</center>
+						</noindex>
+					</td>
+				</tr>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD class="bottom">
+			<table width="100%" cellspacing=0 cellpadding=0>
+				<tr>
+					<td style="padding-left: 25px; width: 40px;"><img src="/image/bottom_man.png" alt=""></td>
+					<td style="color: #ff462a; font-size: 12px;" align="left">mymp3.megawall.ru - скачать музыку в mp3 бесплатно. На сайте размещены ссылки для ознакомительного онлайн прослушивания.</td>
+					<noindex>
+					<td align="right" style="padding-right: 5px;">
+						<!--LiveInternet logo--><a href="http://megawall.ru/redirect?loc=http://www..ru/click"
+						target="_blank"><img src="http://megawall.ru/redirect?loc=http://counter.yadro.ru/logo?18.7"
+						title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня"
+						alt="" border="0" width="88" height="31"></a><!--/LiveInternet-->
+					</td>
+						<!-- begin of Top100 code -->
+						<script id="top100Counter" type="text/javascript" src="http://megawall.ru/redirect?loc=http://counter.rambler.ru/top100.jcn?1743031"></script><noscript><img src="http://megawall.ru/redirect?loc=http://counter.rambler.ru/top100.cnt?1743031" alt="" width="1" height="1" border="0"></noscript>
+						<!-- end of Top100 code -->
+					<td style="padding-right: 10px;">
+						<!-- begin of Top100 logo -->
+						<a href="http://megawall.ru/redirect?loc=http://top100.rambler.ru/home?id=1743031"><img src="http://megawall.ru/redirect?loc=http://top100-images.rambler.ru/top100/banner-88x31-rambler-orange2.gif" alt="Rambler's Top100" width="88" height="31" border="0" ></a>
+						<!-- end of Top100 logo -->
+					</td>
+					</noindex>
+				</tr>
+			</table>
+		</TD>
+	</TR>
+</TABLE>
+<script type="text/javascript" src="http://megawall.ru/redirect?loc=http://mg.dt00.net/gjs/m/p/mymp3.megawall.ru.i4.js" charset="windows-1251"></script>
+<script type="text/javascript" src="http://megawall.ru/redirect?loc=http://mg.dt00.net/gjs/m/p/mymp3.megawall.ru.i3.js" charset="windows-1251"></script>
+<script type="text/javascript" src="http://megawall.ru/redirect?loc=http://mg.dt00.net/gjs/m/p/mymp3.megawall.ru.i2.js" charset="windows-1251"></script>
+<script type="text/javascript" src="http://megawall.ru/redirect?loc=http://mg.dt00.net/gjs/m/p/mymp3.megawall.ru.i1.js" charset="windows-1251"></script>
+
+<script language="JavaScript"> var loc = ''; </script>
+<script language="JavaScript1.4">try{ var loc = escape(top.location.href); }catch(e){;}</script>
+<script language="JavaScript">document.write("<sc"+"ript language='JavaScript' src='http://megawall.ru/redirect?loc=http://ad12.bannerbank.ru/bb.cgi?cmd=ad&hreftarget=_blank&pubid=163001021&pg=1&r=js&ssi=nofillers&vbn=1658&num=1&w=1&h=1&&ref="+escape(document.referrer)+"&loc="+loc+"&nocache="+Math.round(Math.random()*999111)+"'></sc"+"ript>");</script>
+ </BODY>
+</HTML>

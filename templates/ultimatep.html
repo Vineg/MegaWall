@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<!--3a9f6b4e-->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-RU">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="google-site-verification"
+	content="9KlK4RVUajkGmzdVjmGDN32r-mFbCaZgWFnYRQhaHHI" />
+<meta name='yandex-verification' content='7c49de6b6fe11190' />
+<script type="text/javascript"
+	src="<?php print $page->ht; ?>/files/jscripts/jq.js"></script>
+<script type="text/javascript"
+	src="<?php print $page->ht; ?>/files/jscripts/functions.js?<?php print $page->script_version; ?>"></script>
+<script type="text/javascript"
+	src="<?php print $page->ht; ?>/files/jscripts/objectsinit.js?<?php print $page->script_version; ?>"></script>
+<?php print $page->head; ?>
+<link rel="stylesheet"
+	href="<?php print $page->ht; ?>/files/templates/ultimate/style.css?<?php print $page->script_version; ?>"
+	type="text/css" media="screen" />
+<link rel="stylesheet"
+	href="<?php print $page->ht; ?>/files/templates/ultimate/<?php print $page->sidebar?'def':'wide'; ?>.css?<?php print $page->script_version; ?>"
+	type="text/css" media="screen" />
+<!--[if IE 6]><link rel="stylesheet" href="http://demo.fotosynthes.ru/ultima/wp-content/themes/Ultima/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<link rel="shortcut icon"
+	href="<?php print $page->ht; ?>/files/templates/ultimate/images/icon.ico">
+<!-- <script type="text/javascript" -->
+<!-- 	src="http://vkontakte.ru/js/api/share.js?11" charset="windows-1251"></script> -->
+<script type="text/javascript"
+	src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body>
+<?php print $page->counter; ?>
+	<div class="Main">
+		<div class="Sheet">
+			<div class="Sheet-tl"></div>
+			<div class="Sheet-tr">
+				<div></div>
+			</div>
+			<div class="Sheet-bl">
+				<div></div>
+			</div>
+			<div class="Sheet-br">
+				<div></div>
+			</div>
+			<div class="Sheet-tc">
+				<div></div>
+			</div>
+			<div class="Sheet-bc">
+				<div></div>
+			</div>
+			<div class="Sheet-cl">
+				<div></div>
+			</div>
+			<div class="Sheet-cr">
+				<div></div>
+			</div>
+			<div class="Sheet-cc"></div>
+			<div class="Sheet-body">
+				<div class="nav">
+					<ul class="artmenu">
+						<?php print $page->menu; ?>
+					</ul>
+					<div class="l"></div>
+					<div class="r">
+						<div></div>
+					</div>
+				</div>
+				<div class="contentLayout">
+					<table class=w100>
+						<tbody>
+							<tr>
+								<td>
+									<?php if($page->sidebar):?>
+									<div class="sidebar1" onmousemove="init(this);">
+										<div class="sidebar1">
+											<div id="logo">
+												<a href="<?php print $page->ht; ?>/"><img
+													src="<?php print $page->ht; ?>/files/templates/ultimate/images/logo.png" />
+												</a>
+											</div>
+											<div id="description">
+												<h2>Beta</h2>
+											</div><!--
+											<center>
+												<?php print $page->shareblock; ?>
+											</center>
+											-->										
+											</div>
+											<?php print $page->sidebar; ?>
+									</div> <?php endif;?></td>
+								<td class=w100>
+									<div class="content">
+										<?php print $page->content; ?>
+									</div></td>
+
+
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="cleared"></div>
+				<div class="Footer">
+					<div class="Footer-inner">
+						<div class="Footer-text">
+							<p>
+								[Страница сгенерирована за
+								<?php print $page->dtime; ?>
+								секунд.]
+								<?php print $page->footer; ?>
+							</p>
+						</div>
+					</div>
+					<div class="Footer-background"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div></div>
+	<div
+		style="z-index: -1; position: absolute; top: 0px; left: 0px; width: 100%; min-height: 1500px;"></div>
+	<?php print $page->bodyad; ?>
+</body>
+</html>

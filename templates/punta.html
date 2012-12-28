@@ -1,0 +1,102 @@
+<!--?xml version="1.0" ?-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		{$head}
+		<script type="text/javascript" src="{$ht}/files/jscripts/jq.js"></script>
+		<script type="text/javascript" src="{$ht}/files/jscripts/functions.js?{$script_version}"></script>
+		<script type="text/javascript" src="{$ht}/files/jscripts/objectsinit.js?{$script_version}"></script>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" media="screen,projection" type="text/css"
+		href="/files/templates/punta/style.css">
+		<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="http://demo.themelab.com/wp-content/themes/miniml/main-msie.css" /><![endif]-->
+		<link rel="stylesheet" media="screen,projection" type="text/css"
+		href="/files/templates/punta/green.css">
+		<!-- start general-header header 0.1 -->
+		<!-- end general-header header -->
+	</head>
+	<body>
+		<div class="main">
+			<!-- Header -->
+			<div class="header" class="box">
+				<!-- Your logo -->
+				<h1 class="logo"><a href="http://demo.themelab.com/">MegaWall</a></h1>
+				<!-- Your slogan -->
+				<p class="slogan">
+					beta
+				</p>
+				<hr class="noscreen">
+				<!-- Hidden navigation -->
+				<p class="noscreen noprint">
+					<em>Quick links: <a href="#content">content</a>, <a href="#nav">navigation</a>, <a href="#search">search</a>.</em>
+				</p>
+				<hr class="noscreen">
+				<!-- Search -->
+				<div class="search">
+					<form action="{$ht}/search" method="get">
+						<div>
+							<span class="noscreen">Fulltext:</span>
+							<input size="30" name="s" class="search-input" type="text">
+							<button class="search-submit" type="submit">Search</button>
+						</div>
+					</form>
+				</div>
+				<!-- /search -->
+			</div>
+			<!-- /header -->
+			<hr class="noscreen">
+			<!-- Navigation -->
+			<div class="nav box">
+				<h3 class="noscreen">Navigation</h3>
+				<ul>
+					{$menu}
+				</ul>
+			</div>
+			<!-- /nav -->
+			<hr class="noscreen">
+			<!-- Main content -->
+			<div class="content box">
+				<div class="box">
+					<!-- Page (left column) -->
+					<div class="page">
+						{$content} <!-- You can start editing here. -->
+						<!-- If comments are open, but there are no comments. -->
+					</div>
+					<!-- /page -->
+					<hr class="noscreen">
+					<!-- Sidebar (right column) -->
+					<div class="aside" onmousemove="init(this);">
+						<div class="aside-block">
+							<h4 class="hx-style01"><span>Настройки</span></h4>
+							{$settings}
+						</div>
+						
+						<div class="aside-block">
+							<h4 class="hx-style01"><span>Рубрики</span></h4>
+							{$types_list}
+						</div>
+					<!-- /aside -->
+				</div>
+				<!-- /box -->
+			</div>
+			<!-- /content -->
+			<hr class="noscreen">
+			<!-- Footer -->
+			<div class="footer">
+				<!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment.php -->
+				<p class="f-right">
+					[Страница сгенерирована за {$dtime} секунд.]
+				</p>
+				<!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment.php -->
+				<p>
+					©&nbsp;2011 <a href="http://megawall.ru/" title="MegaWall">MegaWall</a>
+				</p>
+			</div>
+			<!-- /footer -->
+		</div>
+		<div style="z-index: -1; position: absolute; top: 0px; left: 0px; width: 100%; min-height: 1500px;"></div>
+		<!-- /main -->
+		<!-- start general-header footer 0.1 -->
+		<!-- end general-header footer -->
+	</body>
+</html>

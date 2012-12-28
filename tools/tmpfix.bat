@@ -1,0 +1,1 @@
+for /R /D %i in (.svn) do if exist "%i" mkdir "%i/tmp"

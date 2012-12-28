@@ -1,0 +1,211 @@
+* {margin:0; padding:0;}
+body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5 {border:0;}
+body {padding:40px 0; font:0.8em/1.5 "arial", serif; text-align:center;}
+
+a {text-decoration:none;}
+
+/*h1, h2, h3, h4, h5, h6 {margin:15px 0 10px 0;}-->*/
+h1 {font-size:260%; font-weight:normal; letter-spacing:-1px;}
+h2 {font-size:160%; font-weight:normal;}
+h3 {font-size:140%; font-weight:normal;}
+h4, h5 {font-size:100%;}
+
+p, table, ul, ol, dl, fieldset {margin:15px 0;}
+tr, td, th{	vertical-align:top;}
+table {border-collapse:collapse; border-spacing:0; font-size:100%;}
+th {text-align:center; font-weight:bold;}
+th, td {padding:3px 7px;}
+
+/*ul, ol {margin-left:30px;}*/
+ul ul, ol ol {margin:0; margin-left:20px;}
+ol {list-style-type:decimal;}
+li {display:list-item;}
+
+dt {font-weight:bold;}
+dd {margin-left:30px;}
+
+fieldset {position:relative; padding:10px;}
+legend {position:absolute; top:-1em; margin:0; padding:5px 10px; font-size:100%; font-weight:bold;}
+
+/* ----------------------------------------------------------------------------------------------------------
+2) Universal styles (display, float, margin, text-align...)
+---------------------------------------------------------------------------------------------------------- */
+
+.box {min-height:1px;}
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";}
+
+.relative {position:relative;}
+
+.clear {clear:both;}
+
+.f-left {float:left !important;} img.f-left {float:left; margin-right:15px;}
+.f-right {float:right !important;} img.f-right {float:right; margin-left:15px;}
+
+.t-left {text-align:left !important;}
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+
+.va-top {vertical-align:top;}
+.va-middle {vertical-align:middle;}
+.va-bottom {vertical-align:bottom;}
+
+.nom {margin:0 !important;}
+.nomt {margin-top:0 !important;}
+.nomb {margin-bottom:0 !important;}
+
+.noscreen {display:none;}
+
+    .bigger {font-size:110%;}
+    .smaller {font-size:85%;}
+    
+/* ----------------------------------------------------------------------------------------------------------
+3) LAYOUT
+---------------------------------------------------------------------------------------------------------- */
+
+.main {width:960px; margin:0 auto; text-align:left;}
+    
+	.header {position:relative; padding-bottom:15px;}
+
+        .logo {margin:0; font-weight:normal;}
+        
+        .slogan {margin:0;}
+        
+        .search {position:absolute; bottom:15px; right:0; padding:7px;}
+        .search .search-input {width:175px; padding:3px;}
+        .search .search-submit {padding:2px; font:normal 100%/1.2 "arial" sans-serif; cursor:pointer;}
+
+    .nav {clear:both; padding:5px 0; border-left:0 !important; border-right:0 !important;}
+
+
+    
+        .nav ul {margin:0; padding:0; list-style:none; font:100%/1.4 "arial",sans-serif;}
+        .nav ul li {display:inline; margin:0; padding:0;}
+        .nav ul li a {display:block; float:left; padding:7px 15px; border:0; background:url("images/dot-03.gif") 100% 0 repeat-y;}
+        .nav ul li.nav-active a {border:0; font-weight:bold;}
+
+	.content {position:relative; padding:10px 0 30px 0; overflow:hidden;}
+
+	.footer {clear:both; font-size:85%; margin-top:50px;}
+
+/* ----------------------------------------------------------------------------------------------------------
+4) Page: Home
+---------------------------------------------------------------------------------------------------------- */
+
+.topstory {float:left; width:630px;}
+
+    .topstory-title {padding:15px;}
+    .topstory-title h2 {margin:0; margin-bottom:2px;}
+    .topstory-title .post-info {margin:0; font-size:85%;}
+    
+    .topstory-perex {display:block; padding:15px; font-size:110%;overflow:hidden;}
+    .topstory-perex p {margin:0;}
+
+.aside {float:left; width:255px;}.aside .aside-block{	margin:30px 0 0 0;}
+
+.aside .halfleft {
+	width: 138px;
+	padding: 10px 0 0 0;
+	margin-left: 0;
+	margin-bottom: 20px;
+	}
+	
+.aside .halfright {
+	float: right;
+	clear: none;
+	margin-left: 20px;
+	width: 138px;
+	padding: 10px 0 0 0;
+	margin-bottom: 20px;
+	}.aside .arrowup {	width: 7px;	height: 15px;	background-image: url("images/sarrowup.png");	vertical-align: top;}.aside .arrowdn {	width: 7px;	height: 15px;	background-image: url("images/sarrowdn.png");	vertical-align: top;}
+
+.photos {margin:0; font-size:0; line-height:0;}
+.photos a {border:0;}
+.photos img {display:block; float:left; width:150px; height:110px; margin-left:8px; border:0;}
+
+.col30 {float:left; width:310px;}
+.col30.margin {margin:0 15px;}
+
+    .col30 h4 {margin-bottom:3px;}
+    .col30 ul {margin:20px 0 !important;}
+    .col30 .post-info {margin:0; font-size:85%;}
+    .col30 p.bb {padding-bottom:20px; background:url("images/dot-02.gif") 0 100% repeat-x;}
+    .col30 p img.f-left {margin-right:10px;}
+    .col30 p {position:relative;}
+/* ----------------------------------------------------------------------------------------------------------
+5) Page: Article
+---------------------------------------------------------------------------------------------------------- */
+
+.page {float:right; width:690px;}
+
+    .post-head {    /*padding:9px 15px 9px 0;*/    padding-left:5px;    }
+    .post-head h2 {margin:0; margin-bottom:0px;}
+    .post-info {margin:0; font-size:85%;}
+
+    .post-content {display:block; font-size:110%; border-radius:5px;}    .post-body{    	/*padding:15px 19px 0 0;*/    	 text-align: left;    	 background-color:white;    	 border-radius:5px;    	 min-height:30px    }
+
+.post-head {border-radius:5px}
+.post-head h2 {color:#4499BB;}
+.post-head h2 a {color:#4499BB;}
+.post-head h2 a:hover {text-style:underline; color:#08C008}
+.post-head .post-info {color:#000;}
+.post-head .post-info a {color:#000;}
+.post-head .post-info a:hover {color:#FFF;}
+
+.post-content a {text-style:underline; color:#000;}
+/*.post-content a:hover {border-bottom:1px solid #000; color:#000;}*/
+
+/* ----------------------------------------------------------------------------------------------------------
+Z) Others
+---------------------------------------------------------------------------------------------------------- */
+
+ul.ul-list {margin:15px 0; padding:0; list-style:none;}
+ul.ul-list li {margin:0; margin-bottom:6px; padding:0; padding-left:20px; background:url("images/ico-list.gif") 0 4px no-repeat;}
+
+.aside ul {margin:0 0; padding:0; list-style:none;}
+.aside ul li {	margin:0; margin-bottom:6px;	background-position: bottom left;}
+/*.aside ul li.olist{	margin:0; margin-bottom:6px; background:url("images/ico-list.gif") 0 4px no-repeat;	background-position: top left;}*/s
+
+
+.hx-style01 {/*clear:both; */ background:url("images/dot.gif") 0 50% repeat-x; font-size:85%;}
+.hx-style01 span {margin-left:15px; padding:0 5px; font-weight:bold; text-transform:uppercase;}
+
+a.ico-more {padding:5px 7px; border:0 !important;}
+
+.alignright {float:right;}
+.alignleft {float:left;}
+
+.commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+.commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+.commentform .submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+
+img.avatar {float:left; margin-right:5px;}
+/* End Comments */.post{	margin-top:30px;}.post:FIRST-CHILD{	margin-top:0;}.post-panel {	float: right;	margin: 0;}.post-panel td {	border: 0 none;	background-color: transparent;	margin:0;	padding:0;	padding-left: 2px;}.post-panel button {	margin:0;	padding:0;}.voteup {	margin-top: 0;	top: 0;	height: 15px;	width: 15px;	background-image: url("images/arrowup1.png");	background-position: 0 0;}.votedn {	height: 15px;	width: 15px;	background-image: url("images/arrowdn1.png");	background-position: 0 0;}.delete {	background-image:url("images/cross-button.png");	background-position: 0 0;	width: 15px;	height: 15px;}.plus {	width: 9px;	height: 9px;	background-image: url('images/add9x9.png');	background-repeat: no-repeat;	margin-left:15px;}button.small, button.mine, button.edit, button.delete, button.votedn, button.voteup, button.bulletup, button.bulletdn, button.dn, button.up, obul, button.dn, button.plus, button.arrowup, button.arrowdn{	border: none;	background-color: transparent;	cursor: pointer;	/*vertical-align: top;*/	/*-moz-border-radius: 0px;*/	border-radius: 0px;}.post-footer{	overflow:hidden;	position:relative;	border:1px solid #DDD;	padding:5px 7px;	border-radius:5px;	margin-top:10px;}.right{	float:right;}.left{	float:left;}.nav .info_text a{	color:green;	float:right;	background:#EFE;	border:1px solid #ADA;	padding:6px 14px;}.nav .info_text a:hover{	color:#00DD00;}.aside ul li {    line-height: 1.2em;    margin: 0;    padding: 7px 0 0 13px;}.aside *{	margin:0;	padding:0;}.aside li.olist{	background:none;}.up {	background-image: url('images/bullet-up.png');	width: 10px;	height: 15px;	background-repeat: no-repeat;	cursor: pointer;	margin-top:6px;}.dn {	background-image: url('images/bullet-dn.png');	width: 10px;	height: 15px;	background-repeat: no-repeat;	cursor: pointer;	margin-top:6px;}.post-info .voteup, .post-info .votedn{	height:12px;	width:12px;	background-size:100%;}.post-info .post-panel{	float:none;	display:inline;	vertical-align:middle;}.hidden{	display:none;}.obul{	font-size:98%;	border-bottom:1px dotted black;	cursor:pointer;	margin-right:3px;	width:0.7em;	overflow:hidden;}.opar{	width:0.7em;	overflow:hidden;}.loading{	display:none;	background:transparent !important;	border:0 !important;	vertical-align:middle;}.inline{	height:15px;}a.open{	cursor:pointer;	border-bottom:dashed 1px grey;	text-decoration:none;}.shadow{	opacity:0.4;}.postdelim{	margin-top:10px;	background: url("images/dot.gif") repeat-x scroll 0 50% transparent;	text-align:center;}.postdelim span{	background: white;	padding:6px;}.post-header{	margin:0 0 5px 0;}.submit, .sub_button{	padding:2px; font:normal 100%/1.2 "arial",sans-serif;	cursor: pointer;	margin: 5px 0 0 10px;	padding: 0 20px 0 20px;	line-height: 170%;}.ssubmit{	padding:2px; font:normal 100%/1.2 "arial",sans-serif;	cursor: pointer;	margin: 5px 0 0 10px;	padding: 0 10px;	line-height: 170%;}a{	cursor:pointer;}.reload-captcha{	border-bottom-style:dashed;}.spage {	float: right;	font-size: 15px;	margin-right: 10px;	margin-bottom: 10px;	clear: left;	text-align: right;	margin-top: 3px;}.spage a {	margin-left: 1px;	font-family: "Times New Roman", Times, serif;}.middle-textarea {	width: 100%;	height: 70px;}.w100{	width:100%;}/*.up {	background-image: url('images/BlockContentBullets.png');	width: 10px;	height: 1em;	background-repeat: no-repeat;	cursor: pointer;}.dn {	background-image: url('images/BlockContentBulletd.png');	width: 10px;	height: 1em;	background-repeat: no-repeat;	cursor: pointer;}*/button{	cursor:pointer;	margin:3px;	padding:2px 0;}.ok{	color:green;}.err{	color:red;	margin-left:20px;}.vmsg{	vertical-align:top;	font-size:12px;}.edit {	background-image:		url("images/pencil.png");	background-position: 0 0;	border-radius:0px;	width: 15px;	height: 15px;}.edit-s {	background-image: url("images/pencil-s.png");	width: 10px;	height: 16px;	vertical-align:middle;	margin-left:-2px;}.big-textarea{	width: 100%;	min-height: 350px;	margin-bottom:7px;}li{	list-style:none;	margin-left:10px;}ul->li{	list-style:disc;}input{	width:15em;}input[type]{	width:auto;}input[type=checkbox]{	margin-right:7px;	margin-left:7px;}img{	border:1px solid #CCC;}.cb{	width:1em;}.openobj{	margin:0;	padding:0;}.invis{	border:0;	margin:0;	padding:0;}.invis *{	border:0;	margin:0;	padding:0;}.w0{	width:0;}.nowrap{	white-space:nowrap;}.mid{	vertical-align:middle;}.mid *{	vertical-align:middle;}.vmsg{	opacity:0;}.voteup:hover,.votedn:hover,.delete:hover {	background-position: 0 -100%;}.voteup:active,.votedn:active,.delete:active {	background-position: 0 -200%;}

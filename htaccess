@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/trac/
+RewriteCond %{REQUEST_URI} !^/admin/
+RewriteRule ^(.*)$ index.php [L]
